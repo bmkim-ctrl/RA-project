@@ -1,0 +1,30 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Node / Next
+node_modules/
+.next/
+npm-debug.log*
+
+# Local runtime data
+.runtime/
+backend/.runtime/
+frontend/.env.local
+
+# Build artifacts
+dist/
+build/
+coverage/
