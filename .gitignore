@@ -28,3 +28,37 @@ frontend/.env.local
 dist/
 build/
 coverage/
+
+# 환경 변수 (중요)
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# 로그 파일
+*.log
+
+# 업로드 파일 / 이미지 (선택)
+images/
+uploads/
+
+# DB 파일
+*.sqlite3
+*.db
+
+# 빌드 결과물
+dist/
+build/
+coverage/
+
+# 타입스크립트 빌드 캐시
+*.tsbuildinfo
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# 기타
+*.swp
+*.swo
